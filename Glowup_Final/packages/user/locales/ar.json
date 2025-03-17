@@ -1,0 +1,16 @@
+{
+  "SESSION": "Session Expired",
+  "TEST_API": "This is test api",
+  "DISTRICT": "Please provide district",
+  "AREA": "Please provide area",
+  "LANDMARK": "Please provide landmark",
+  "COUNTRY": "Please provide country",
+  "CITY": "Please provide city",
+  "PINCODE": "Please provide pincode",
+  "CATCH_ERROR": "Internal Server Error",
+  "PROVIDE_STREET": "Please provide street",
+  "PROVIDE_CITY": "Please provide city",
+  "USER_OR_EMAIL": "Please provide either user or email and name!",
+  "INVALID_ADD_TYPE": "Please provide address type!",
+  "PROVIDE_PINCODE": "Please provide pincode"
+}

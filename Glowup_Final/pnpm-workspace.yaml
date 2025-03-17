@@ -1,0 +1,8 @@
+packages:
+  - packages/*
+  - common
+onlyBuiltDependencies:
+  - bcrypt
+ignoredBuiltDependencies:
+  - protobufjs
+  - sharp

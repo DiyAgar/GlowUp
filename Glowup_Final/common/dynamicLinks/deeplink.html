@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Redirecting...</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/@appwrite.io/pink" />
+    <link rel="stylesheet" href="https://unpkg.com/@appwrite.io/pink-icons" />
+  </head>
+  <body>
+    <main class="main-content">
+      <div class="top-cover u-padding-block-end-56">
+        <div
+          class="container u-flex-vertical u-cross-center"
+          style="max-width: 40rem"
+        >
+          <div class="u-flex u-main-center u-margin-block-start-16">
+            <h1 class="heading-level-1">Redirecting</h1>
+            <code class="u-un-break-text"></code>
+          </div>
+          <p class="body-text-1 u-normal u-margin-block-start-8 u-text-center">
+            You will be redirected automatically. <br />
+            If nothing happens, click the button below.
+          </p>
+          <a
+            id="manual"
+            class="button u-margin-block-start-16"
+            href="{{URL}}"
+            onclick=navigateFallback()
+            >Open Link</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <script>
+      function navigateFallback() {
+        // window.location.href = fallback;
+        console.log(window.location.href, "fallback");
+      }
+    </script>
+  </body>
+</html>

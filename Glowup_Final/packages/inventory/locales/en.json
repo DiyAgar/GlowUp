@@ -1,0 +1,8 @@
+{
+	"SESSION": "Session Expired",
+	"PROVIDE_VARIENTS": "Please provide varients",
+	"CATCH_ERROR": "Internal Server Error",
+	"SUCCESS": "SUCCESS",
+	"ACCOUNT_DELETED": "Account deleted. Please login again",
+	"SERVER_ERROR": "SERVER_ERROR"
+}
